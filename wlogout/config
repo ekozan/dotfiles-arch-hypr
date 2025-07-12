@@ -1,0 +1,6 @@
+Deslogar,loginctl terminate-user $USER,system-log-out
+Reiniciar,reboot,system-reboot
+Desligar,poweroff,system-shutdown
+Suspender,systemctl suspend,media-playback-pause
+Hibernar,systemctl hibernate,media-playback-stop
+Bloquear,loginctl lock-session,system-lock-screen

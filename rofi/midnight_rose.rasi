@@ -1,0 +1,85 @@
+/* Midnight Rose ─ Rofi theme
+   Background: #190E2E
+   Accents & borders: #FF687B
+   Font: SF Pro Text 12 pt */
+
+configuration {
+    font: "SF Pro Text 11";
+}
+
+* {
+    background:   #190E2E;   /* default purple */
+    foreground:   #FF687B;   /* pink text */
+    border-color: #FF687B;   /* pink borders */
+}
+
+#window {
+    background-color: @background;
+    border:           1px;
+    border-color:     @border-color;
+    text-color:       @foreground;
+    color:            @foreground;
+    border-radius:    12px;   /* rounded window */
+    padding:          20px;
+    width: 500px;
+    height: 362px;
+}
+
+#inputbar {
+    background-color: @background;
+    text-color:       @foreground;
+    color:            @foreground;
+    border:           1px;
+    border-color:     @border-color;
+    border-radius:    10px;
+    padding:          6px 8px;
+}
+
+#textbox-prompt-colon {
+    background-color: @background;
+    text-color:       @foreground;
+    color:            @foreground;
+    border:           1px;
+    border-color:     @border-color;
+    border-radius:    10px;
+    padding:          6px 8px;
+}
+
+#listview {
+    background-color: @background;
+    spacing:          4px;
+}
+
+/* Common style for every list item */
+#element {
+    background-color: @background;
+    text-color:       @foreground;
+    color:            @foreground;
+    border:           1px;
+    border-color:     @border-color;
+    border-radius:    8px;            /* rounded items */
+    padding:          4px 8px;
+}
+
+#element.normal.normal {
+    /* same as base – keeps purple background */
+}
+
+#element.selected.normal {
+    background-color: rgba(255,104,123,0.15);  /* subtle highlight */
+    text-color:       @foreground;
+}
+
+#element.alternate.normal {
+    background-color: @background;  /* no zebra striping */
+}
+
+#scrollbar {
+    handle-color: @border-color;
+    handle-width: 4px;
+}
+
+#message {
+    text-color: @foreground;
+    color:      @foreground;
+}

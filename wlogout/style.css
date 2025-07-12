@@ -1,0 +1,36 @@
+window {
+    background-color: rgba(25, 14, 46, 0.8);  /* fundo roxo escuro translúcido */
+}
+
+button {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    background-color: #333;
+    border: 2px solid #FF687B; /* borda rosa ao passar o mouse */
+}
+
+button image {
+    padding: 10px;
+}
+
+#lock {
+    background-color: #4B0082;
+}
+
+#logout {
+    background-color: #8B0000;
+}
+
+#reboot {
+    background-color: #006400;
+}
+
+#shutdown {
+    background-color: #8B008B;
+}
